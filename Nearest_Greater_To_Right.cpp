@@ -2,8 +2,8 @@
 
 
 vector<int> nextLargerElement(vector<int> arr, int n){
-    vector<long long> v; // creating a vector for storing result 
-    stack <long long> s; // creating a stack for temp. hold the values from array
+    vector<int> v; // creating a vector for storing result 
+    stack <int> s; // creating a stack for temp. hold the values from array
     s.push(arr[n-1]);
     v.push_back(-1); //Initializing with the last value of the array because no element is present after that element.
                      //And pushing -1 to the result for the same reason
