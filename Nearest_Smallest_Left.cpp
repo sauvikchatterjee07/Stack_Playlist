@@ -5,6 +5,7 @@
       stack<pair<int, int>> s1;
       s1.push({heights[0], 0});
       left.push_back(-1);
+      int pseudo_index1_left = -1;
 
     for (int i=1;i<n;i++)
     {
